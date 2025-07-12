@@ -14,6 +14,7 @@ import routes.Routes;
 
 public class dataDrivenTestCase  extends baseClass {
 	
+	//Test
 	@Test(dataProvider="jsonDataProvider", dataProviderClass=utils.DataProviderUtil.class) // we use this dataProviderClass=utils.DataProviderUtil.class) path to connect with this class 
     public void addNewProduct(Map<String,String> data) {
          
