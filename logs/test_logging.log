@@ -1,0 +1,215 @@
+Request method:	POST
+Request URI:	https://fakestoreapi.com/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Wireless Mouse",
+    "price": 25.99,
+    "description": "Ergonomic wireless mouse with adjustable DPI.",
+    "image": "https://i.pravatar.cc/100",
+    "category": "electronic"
+}
+HTTP/1.1 200 OK
+Date: Thu, 10 Jul 2025 03:36:44 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"aa-2s4ER7pcE44Unm4fsx7WRXafGXE"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=46E92HAwDvYaYARK1gkVlri2EwWwWWFQ5i%2Blswpyrtj7BVXhEs7RvjOu9jrPTJxdjblcWMDKXrN1s4Y1XwupMsPeouRyP%2FgnHaCu0HtckAY%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 95cd04b768973f6d-BOM
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 21,
+    "title": "Wireless Mouse",
+    "price": 25.99,
+    "description": "Ergonomic wireless mouse with adjustable DPI.",
+    "image": "https://i.pravatar.cc/100",
+    "category": "electronic"
+}
+Request method:	POST
+Request URI:	https://fakestoreapi.com/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Gaming Keyboard",
+    "price": 49.99,
+    "description": "Mechanical gaming keyboard with RGB backlight.",
+    "image": "https://i.pravatar.cc/101",
+    "category": "electronic"
+}
+HTTP/1.1 200 OK
+Date: Thu, 10 Jul 2025 03:36:47 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"ac-ndnF/0854GxNZKo6UJkXi4Xiqyo"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=LF0JxlxugdzFvjBCYwL1t%2FXMPuV9aNsfD08VOrZMnBf%2BJyEinKGwUU31M2zYFe5%2BuliP6g1477EiGtG%2BYx0NiS95mSucmhOFS82hy248xxI%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 95cd04ceef15ff7b-BOM
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 21,
+    "title": "Gaming Keyboard",
+    "price": 49.99,
+    "description": "Mechanical gaming keyboard with RGB backlight.",
+    "image": "https://i.pravatar.cc/101",
+    "category": "electronic"
+}
+Request method:	POST
+Request URI:	https://fakestoreapi.com/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Bluetooth Headphones",
+    "price": 79.99,
+    "description": "Noise-canceling over-ear headphones with deep bass.",
+    "image": "https://i.pravatar.cc/102",
+    "category": "electronics"
+}
+HTTP/1.1 200 OK
+Date: Thu, 10 Jul 2025 03:36:48 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"b7-eZiT0+LD+gdUG1stxnuhd1rjbyY"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=XDmCtVQkCotqjfJaGDpgo9BSlS9JPBV%2Bsrgs2epyLUbzlIKikc8n%2BHH86J7aUTeW1WoiGgAqID8v%2B6Fq15H%2BmUhd26gKE0jZrYcY7hPNYe8%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 95cd04d3d8d34904-BOM
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 21,
+    "title": "Bluetooth Headphones",
+    "price": 79.99,
+    "description": "Noise-canceling over-ear headphones with deep bass.",
+    "image": "https://i.pravatar.cc/102",
+    "category": "electronics"
+}
+Request method:	POST
+Request URI:	https://fakestoreapi.com/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Smart Watch",
+    "price": 129.99,
+    "description": "Fitness smartwatch with heart rate monitor and GPS.",
+    "image": "https://i.pravatar.cc/103",
+    "category": "wearables"
+}
+HTTP/1.1 200 OK
+Date: Thu, 10 Jul 2025 03:36:49 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"ad-7cxJG2tqqr8I91/KgdGp1zBexAw"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=f%2BzBc%2BREo88j8e%2BNWG4nisjQav0DfZmbr%2B0%2FO6hd%2B%2BNXZ6c9uTVQTe2cqCKyRgtjhbXCI2FsWSgGsauM7yG9u39q4lZ18NTi9Q8%2FAARi4FI%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 95cd04d8e84f8540-BOM
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 21,
+    "title": "Smart Watch",
+    "price": 129.99,
+    "description": "Fitness smartwatch with heart rate monitor and GPS.",
+    "image": "https://i.pravatar.cc/103",
+    "category": "wearables"
+}
+Request method:	POST
+Request URI:	https://fakestoreapi.com/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Portable Speaker",
+    "price": 39.99,
+    "description": "Waterproof Bluetooth speaker with 12-hour battery life.",
+    "image": "https://i.pravatar.cc/104",
+    "category": "audio"
+}
+HTTP/1.1 200 OK
+Date: Thu, 10 Jul 2025 03:36:50 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"b1-ej93fgqpSl1mUbDPlAMk7RGz4cc"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=rifaw8Er0s4cYCvuCmTC%2FVdbQaNPlsbMuHXPg7oou%2BoHr7oc6RgoP%2FuWRBzufrLIQqg8URUmQ8QkDH7gA5tZE1CBbS%2B4ctRWsvEISP8TbFM%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 95cd04dfd9a13a4d-BOM
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 21,
+    "title": "Portable Speaker",
+    "price": 39.99,
+    "description": "Waterproof Bluetooth speaker with 12-hour battery life.",
+    "image": "https://i.pravatar.cc/104",
+    "category": "audio"
+}
