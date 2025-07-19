@@ -1,72 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-10T09:06:37 IST" name="Default suite" finished-at="2025-07-10T09:06:50 IST" duration-ms="13200">
+  <suite started-at="2025-07-19T10:32:16 IST" name="API Automation Suite" finished-at="2025-07-19T10:32:36 IST" duration-ms="20132">
     <groups>
     </groups>
-    <test started-at="2025-07-10T09:06:37 IST" name="Default test" finished-at="2025-07-10T09:06:50 IST" duration-ms="13200">
-      <class name="testcases.dataDrivenTestCase">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.dataDrivenTestCase@35ef1869]" started-at="2025-07-10T09:06:37 IST" name="setup" finished-at="2025-07-10T09:06:38 IST" duration-ms="877" status="PASS">
+    <test started-at="2025-07-19T10:32:16 IST" name="Test" finished-at="2025-07-19T10:32:36 IST" duration-ms="20132">
+      <class name="testcases.productTestCases">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.productTestCases@61df66b6]" started-at="2025-07-19T10:32:17 IST" name="setup" finished-at="2025-07-19T10:32:18 IST" duration-ms="1227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addNewProduct(java.util.Map)[pri:0, instance:testcases.dataDrivenTestCase@35ef1869]" started-at="2025-07-10T09:06:38 IST" name="addNewProduct" data-provider="jsonDataProvider" finished-at="2025-07-10T09:06:46 IST" duration-ms="8224" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{title=Wireless Mouse, price=25.99, description=Ergonomic wireless mouse with adjustable DPI., image=https://i.pravatar.cc/100, category=electronic}]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="UpdateProduct()[pri:0, instance:testcases.productTestCases@61df66b6]" started-at="2025-07-19T10:32:18 IST" name="UpdateProduct" finished-at="2025-07-19T10:32:29 IST" duration-ms="11372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateProduct -->
+        <test-method signature="addNewProduct()[pri:0, instance:testcases.productTestCases@61df66b6]" started-at="2025-07-19T10:32:29 IST" name="addNewProduct" finished-at="2025-07-19T10:32:30 IST" duration-ms="440" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewProduct -->
-        <test-method signature="addNewProduct(java.util.Map)[pri:0, instance:testcases.dataDrivenTestCase@35ef1869]" started-at="2025-07-10T09:06:46 IST" name="addNewProduct" data-provider="jsonDataProvider" finished-at="2025-07-10T09:06:47 IST" duration-ms="794" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{title=Gaming Keyboard, price=49.99, description=Mechanical gaming keyboard with RGB backlight., image=https://i.pravatar.cc/101, category=electronic}]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="deleteProduct()[pri:0, instance:testcases.productTestCases@61df66b6]" started-at="2025-07-19T10:32:30 IST" name="deleteProduct" finished-at="2025-07-19T10:32:31 IST" duration-ms="1361" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addNewProduct -->
-        <test-method signature="addNewProduct(java.util.Map)[pri:0, instance:testcases.dataDrivenTestCase@35ef1869]" started-at="2025-07-10T09:06:47 IST" name="addNewProduct" data-provider="jsonDataProvider" finished-at="2025-07-10T09:06:48 IST" duration-ms="800" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{title=Bluetooth Headphones, price=79.99, description=Noise-canceling over-ear headphones with deep bass., image=https://i.pravatar.cc/102, category=electronics}]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- deleteProduct -->
+        <test-method signature="getAllProducts()[pri:0, instance:testcases.productTestCases@61df66b6]" started-at="2025-07-19T10:32:31 IST" name="getAllProducts" finished-at="2025-07-19T10:32:33 IST" duration-ms="2051" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addNewProduct -->
-        <test-method signature="addNewProduct(java.util.Map)[pri:0, instance:testcases.dataDrivenTestCase@35ef1869]" started-at="2025-07-10T09:06:48 IST" name="addNewProduct" data-provider="jsonDataProvider" finished-at="2025-07-10T09:06:49 IST" duration-ms="810" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{title=Smart Watch, price=129.99, description=Fitness smartwatch with heart rate monitor and GPS., image=https://i.pravatar.cc/103, category=wearables}]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- getAllProducts -->
+        <test-method signature="getLimitedProducts()[pri:0, instance:testcases.productTestCases@61df66b6]" started-at="2025-07-19T10:32:33 IST" name="getLimitedProducts" finished-at="2025-07-19T10:32:34 IST" duration-ms="686" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addNewProduct -->
-        <test-method signature="addNewProduct(java.util.Map)[pri:0, instance:testcases.dataDrivenTestCase@35ef1869]" started-at="2025-07-10T09:06:49 IST" name="addNewProduct" data-provider="jsonDataProvider" finished-at="2025-07-10T09:06:50 IST" duration-ms="1113" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{title=Portable Speaker, price=39.99, description=Waterproof Bluetooth speaker with 12-hour battery life., image=https://i.pravatar.cc/104, category=audio}]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- getLimitedProducts -->
+        <test-method signature="getSingleProduct()[pri:0, instance:testcases.productTestCases@61df66b6]" started-at="2025-07-19T10:32:34 IST" name="getSingleProduct" finished-at="2025-07-19T10:32:35 IST" duration-ms="781" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addNewProduct -->
-      </class> <!-- testcases.dataDrivenTestCase -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- getSingleProduct -->
+        <test-method signature="sortedProduct()[pri:0, instance:testcases.productTestCases@61df66b6]" started-at="2025-07-19T10:32:35 IST" name="sortedProduct" finished-at="2025-07-19T10:32:36 IST" duration-ms="1082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortedProduct -->
+      </class> <!-- testcases.productTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- API Automation Suite -->
 </testng-results>
